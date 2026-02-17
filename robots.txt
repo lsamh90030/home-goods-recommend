@@ -1,0 +1,24 @@
+# 家居好物推荐网站 robots.txt
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+
+# Sitemap
+Sitemap: https://home-goods-recommend.vercel.app/sitemap.xml
+
+# 爬虫频率建议
+Crawl-delay: 2
+
+# 搜索引擎优化
+User-agent: Googlebot
+Allow: /
+Disallow: /search/
+
+User-agent: Bingbot
+Allow: /
+Disallow: /search/
+
+User-agent: Baiduspider
+Allow: /
+Disallow: /search/
